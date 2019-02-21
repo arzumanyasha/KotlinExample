@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">KotlinExample</string>
+    <string name="chinese">Chinese</string>
 </resources>
