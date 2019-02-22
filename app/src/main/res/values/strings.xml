@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">KotlinExample</string>
     <string name="chinese">Chinese</string>
+    <string name="decide">DECIDE</string>
+    <string name="name">Name</string>
+    <string name="add_food">ADD FOOD</string>
+    <string name="texas_chicken">Texas Chicken</string>
 </resources>

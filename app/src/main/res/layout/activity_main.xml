@@ -17,5 +17,52 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent" android:id="@+id/text_selected_food"
             app:fontFamily="@font/muli_bold" android:textSize="30sp"/>
+    <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp" app:srcCompat="@drawable/dd_logo"
+            android:id="@+id/imageView" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/text_selected_food" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"/>
+    <Button
+            android:text="@string/decide"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            app:fontFamily="@font/muli_bold"
+            android:textColor="#ffffff"
+            android:id="@+id/button_decide"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="@color/colorPrimary"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/name"
+            android:ems="10"
+            app:fontFamily="@font/muli_bold"
+            android:id="@+id/edit_text_add_food" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/button_add_food" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/text_selected_food"/>
+    <Button
+            android:text="@string/add_food"
+            android:layout_width="224dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_add_food"
+            app:fontFamily="@font/muli_bold"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:background="@color/colorPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" android:layout_marginBottom="84dp"
+            app:layout_constraintBottom_toTopOf="@+id/button_decide" style="@style/Widget.AppCompat.Button.Borderless"
+            app:layout_constraintHorizontal_bias="0.497"/>
 
 </android.support.constraint.ConstraintLayout>
